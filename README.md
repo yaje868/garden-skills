@@ -298,6 +298,7 @@ git checkout web-design-engineer-v1.0.0
 | **Codex CLI** | `.codex/skills/<name>/` | ✅ Tested |
 | **Gemini CLI** | extension manifest | ✅ Tested |
 | **OpenCode** | `.opencode/skills/<name>/` | ✅ Tested |
+| **Hermes Agent** | `~/.hermes/skills/<name>/` | ✅ Tested |
 
 > The `SKILL.md` format is portable by design — if your agent supports skills, copy the folder into the directory it scans, and it should work. PRs welcome to extend this matrix.
 
