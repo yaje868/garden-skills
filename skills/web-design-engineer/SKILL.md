@@ -14,6 +14,14 @@ description: |
   Even if the user doesn't explicitly say "HTML" or "web page," this skill applies whenever the intent is to produce something visual, interactive, or presentational.
   Includes a fact-verification step (WebSearch real products before assuming), a brand asset protocol (logo / product imagery / UI screenshots > color hex codes), a Design Direction Advisor fallback for vague requests, and an on-demand 5-dimension Critique mode.
   Not applicable: pure back-end logic, CLI tools, data-processing scripts, non-visual code tasks, command-line debugging.
+version: 1.1.0
+author: ConardLi
+license: MIT
+platforms: [linux, macos, windows]
+metadata:
+  hermes:
+    tags: [web-design, frontend, html, css, javascript, react, ui-ux, prototyping, animation]
+    related_skills: [web-video-presentation, gpt-image-2]
 ---
 
 # Web Design Engineer

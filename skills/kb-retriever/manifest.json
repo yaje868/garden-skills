@@ -10,6 +10,7 @@
     "cursor",
     "codex-cli",
     "gemini-cli",
-    "opencode"
+    "opencode",
+    "hermes-agent"
   ]
 }
