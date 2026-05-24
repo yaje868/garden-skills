@@ -1,0 +1,29 @@
+{
+  "id": "linear",
+  "name": "Linear",
+  "nameZh": "线性蓝",
+  "description": "Deep charcoal backdrop with crisp blue accent and Inter font. Clean, elevated dark theme inspired by Linear's design system — perfect for product demos, developer tools, and modern SaaS walkthroughs.",
+  "descriptionZh": "深炭灰底色 + 清脆蓝色强调色 + Inter 字体. 灵感源自 Linear 设计系统的洁净深邃暗色主题, 适合产品演示、开发者工具和现代 SaaS 导览.",
+  "mood": [
+    "dark",
+    "clean",
+    "modern",
+    "minimal",
+    "charcoal",
+    "blue",
+    "professional"
+  ],
+  "bestFor": [
+    "产品演示",
+    "开发者工具介绍",
+    "SaaS 导览",
+    "UI / UX 展示",
+    "技术演讲"
+  ],
+  "preview": {
+    "shell": "#0d0d0d",
+    "surface": "#161617",
+    "text": "#ededef",
+    "accent": "#5b6bf7"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "id": "linear-stage",
+  "name": "Linear Stage",
+  "nameZh": "线性舞台",
+  "description": "Presentation-optimized variant of Linear's design system. Lifted charcoal palette, crisp blue accent, enlarged type scale for 16:9 screen viewing at distance. Best for tech keynotes, data-driven myth-busting, and developer presentations.",
+  "descriptionZh": "基于 Linear 设计系统优化的演示主题。提升的炭灰色阶、清脆蓝色强调色、为 16:9 屏幕观看放大的字号体系。适合科技主题演讲、数据驱动的辟谣内容和开发者演示。",
+  "mood": ["dark", "clean", "modern", "professional", "charcoal", "blue", "readable"],
+  "bestFor": [
+    "科技主题演讲",
+    "数据辟谣 / Myth→Truth 内容",
+    "开发者演示",
+    "产品推介",
+    "知识科普视频"
+  ],
+  "preview": {
+    "shell": "#2a2a2e",
+    "surface": "#35353a",
+    "text": "#e0e0e4",
+    "accent": "#5b6bf7"
+  }
+}

@@ -1,0 +1,60 @@
+/* ─────────────────────────────────────────────────────────────────────
+ * Theme · linear
+ *   Clean dark theme inspired by Linear's design system. Deep charcoal
+ *   shell with subtle elevation, muted surface layers, and a crisp
+ *   blue accent (#5b6bf7). Inter family for flawless reading.
+ *
+ *   character knobs:
+ *     • hero numbers   — Inter semi-condensed, tight track
+ *     • rule           — 1px solid hairline (subtle)
+ *     • card           — 8px radius, soft shadow, no border
+ *     • surface        — clean, no pattern, elevation via luminosity
+ *     • motion         — fast & fluid (200–400ms)
+ * ───────────────────────────────────────────────────────────────────── */
+:root {
+ /* ─── palette ─── */
+ --shell:        #0d0d0d;
+ --surface:      #161617;
+ --surface-2:    #1e1e20;
+ --surface-3:    #252527;
+ --text:         #ededef;
+ --text-2:       #b4b4b8;
+ --text-mute:    #707075;
+ --text-faint:   #48484d;
+ --rule:         #2a2a2e;
+ --accent:       #5b6bf7;
+ --accent-soft:  rgba(91, 107, 247, 0.12);
+ --accent-glow:  rgba(91, 107, 247, 0.50);
+
+ /* ─── fonts (Inter family) ─── */
+ --font-display-cn: "Inter", "Noto Sans SC", -apple-system, sans-serif;
+ --font-display-en: "Inter", "SF Pro Display", -apple-system, sans-serif;
+ --font-body:       "Inter", "Noto Sans SC", -apple-system, sans-serif;
+ --font-mono:       "JetBrains Mono", "SF Mono", ui-monospace, monospace;
+ --font-features:   "tnum", "zero", "cv05", "cv11";
+
+ /* ─── motion: fast & fluid ─── */
+ --dur-base:       200ms;
+ --dur-slow:       400ms;
+ --dur-cinematic:  600ms;
+
+ /* ─── design identity: clean, elevated ─── */
+ --r-card:        var(--r-md);     /* 8px — Linear signature */
+ --r-stage:       0;
+ --rule-w:        1px;
+ --rule-style:    solid;
+ --hero-num-font:    var(--font-display-en);
+ --hero-num-style:   normal;
+ --hero-num-weight:  600;
+ --hero-num-track:   -0.03em;
+ --stage-pad-x:   120px;
+ --stage-pad-y:   80px;
+ --card-shadow:
+   0 1px 3px rgba(0, 0, 0, 0.30),
+   0 4px 12px rgba(0, 0, 0, 0.20);
+ --shadow-stage:
+   0 0 0 1px rgba(255, 255, 255, 0.03),
+   0 80px 200px rgba(0, 0, 0, 0.60);
+
+ /* ─── decoration: clean, no surface pattern ─── */
+}

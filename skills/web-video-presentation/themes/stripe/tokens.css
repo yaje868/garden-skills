@@ -1,0 +1,62 @@
+/* ─────────────────────────────────────────────────────────────────────
+ * Theme · stripe
+ *   Inspired by Stripe's brand design system. Deep indigo-purple
+ *   backdrop with gradient-inflected cyan accent. Modern tech/developer
+ *   aesthetic — authoritative, premium, calm.
+ *
+ *   character knobs:
+ *     • hero numbers   — mono sans, 600 weight
+ *     • rule           — 1px solid (subtle glow variant for accent)
+ *     • card           — 16px radius, soft transparent lift
+ *     • surface        — no grain, clean
+ *     • motion         — measured (modern UI pacing)
+ * ───────────────────────────────────────────────────────────────────── */
+:root {
+  /* ─── palette ─── */
+  --shell:        #0f0a1a;
+  --surface:      #181127;
+  --surface-2:    #241a3a;
+  --surface-3:    #322550;
+  --text:         #f0edf8;
+  --text-2:       #d4cee8;
+  --text-mute:    #8a7fa8;
+  --text-faint:   #554873;
+  --rule:         rgba(124, 58, 237, 0.18);
+  --accent:       #7c3aed;
+  --accent-soft:  rgba(124, 58, 237, 0.12);
+  --accent-glow:  rgba(124, 58, 237, 0.40);
+
+  /* ─── fonts: modern sans (Inter) ─── */
+  --font-display-cn: "Inter", "Noto Sans SC", -apple-system, sans-serif;
+  --font-display-en: "Inter", "SF Pro Display", -apple-system, sans-serif;
+  --font-body:       "Inter", "Noto Sans SC", -apple-system, sans-serif;
+  --font-mono:       "JetBrains Mono", "SF Mono", "Fira Code", monospace;
+  --font-features:   "tnum", "zero", "ss01";
+
+  /* ─── motion ─── */
+  --dur-base:       500ms;
+  --dur-slow:       800ms;
+  --dur-cinematic:  1000ms;
+
+  /* ─── design identity ─── */
+  --r-card:        16px;
+  --r-stage:       8px;
+  --rule-w:        1px;
+  --rule-style:    solid;
+  --hero-num-font:    var(--font-display-en);
+  --hero-num-style:   normal;
+  --hero-num-weight:  600;
+  --hero-num-track:   -0.03em;
+  --stage-pad-x:   96px;
+  --stage-pad-y:   72px;
+  --card-shadow:   0 4px 24px rgba(0, 0, 0, 0.25),
+                   0 0 0 1px rgba(124, 58, 237, 0.08);
+  --shadow-stage:
+    0 60px 160px rgba(0, 0, 0, 0.50),
+    0 0 0 1px rgba(124, 58, 237, 0.06);
+
+  /* ─── decoration ─── */
+  --surface-pattern: none;
+  --surface-vignette:
+    radial-gradient(ellipse at 50% 0%, rgba(124, 58, 237, 0.06) 0%, transparent 70%);
+}

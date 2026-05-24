@@ -60,7 +60,13 @@
 | `newsroom`          | NYT 报刊。报纸奶油 + 墨黑衬线 + 旗红。Playfair Display + Noto Serif SC。**0 圆角**（报纸不会圆角）。hero 数字：超大斜体显示衬线。安静的印刷节奏。淡纸纹。                                                        |
 | `bauhaus-bold`      | 现代主义宣言。米白 + 墨黑 + 原色蓝。Archivo Black + Inter。**0 圆角 + 4px 实色厚边 + 4px 黑色画框包住舞台 + 偏移实色阴影**。hero 数字：font-weight 900 巨字。利落快速动效。无装饰。                              |
 | `sunset-zine`       | 独立 risograph zine。暖桃 + riso 洋红 + Fraunces。**虚线剪贴线 + 偏移桃色阴影**。hero 数字：斜体 Fraunces。粗 riso 纸纹。弹簧 overshoot 动效。                                                                  |
-| `monochrome-print`  | 安静精炼的印刷杂志 —— Monocle / Wallpaper / MIT Press。米白 + 墨黑衬线 + 墨蓝 accent。Source Serif。**只有 1px 实线发丝、4px 精炼圆角**。hero 数字：斜体 tabular figures。**无装饰** —— 极简纯粹。极静节奏（1.7s 揭示）。 |
+| `apple`          | 白+蓝，Apple 风格 | 浅 |
+
+### 新增主题
+
+| id                  | 性格                                                                                                                                                                                                            |
+| ------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `linear-stage`      | linear 的演示优化版。抬升的炭灰阶（离开黑色区域）、定制放大的字号体系（body 24px / micro 17px）、清脆蓝 accent Inter。无装饰、纯内容驱动。适合科技辟谣 / 数据演示 / 知识科普。                                  |
 
 随时列出可用主题：
 

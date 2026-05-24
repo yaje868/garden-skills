@@ -1,0 +1,28 @@
+{
+  "id": "stripe",
+  "name": "Stripe",
+  "nameZh": "Stripe 风格",
+  "description": "Deep indigo-purple backdrop with cyan accent and Inter font. Modern tech / developer aesthetic inspired by Stripe's brand system.",
+  "descriptionZh": "深靛紫底 + 紫色强调色 + Inter 字体. 源自 Stripe 品牌设计系统的现代科技风格.",
+  "mood": [
+    "dark",
+    "modern",
+    "tech",
+    "premium",
+    "developer",
+    "indigo"
+  ],
+  "bestFor": [
+    "技术产品演示",
+    "开发者大会 Keynote",
+    "SaaS 产品发布",
+    "API / SDK 介绍",
+    "创业融资 Pitch"
+  ],
+  "preview": {
+    "shell": "#0f0a1a",
+    "surface": "#181127",
+    "text": "#f0edf8",
+    "accent": "#7c3aed"
+  }
+}

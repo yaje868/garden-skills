@@ -1,0 +1,64 @@
+/* ─────────────────────────────────────────────────────────────────────
+ * Theme · apple
+ *   Apple Keynote–inspired: pristine white canvas, single blue accent,
+ *   SF Pro / Inter typography. Maximum readability, generous whitespace,
+ *   clean minimal surfaces — no grid, no noise.
+ *
+ *   character knobs:
+ *     • hero numbers   — semibold sans, tight track (-0.04em)
+ *     • rule           — 1px solid hairline (#d2d2d7)
+ *     • card           — 16px radius, ultra-light shadow stack
+ *     • surface        — clean white (no pattern)
+ *     • motion         — smooth, fluid (spring easing)
+ * ───────────────────────────────────────────────────────────────────── */
+:root {
+ /* ─── palette ─── */
+ --shell:        #f5f5f7;
+ --surface:      #ffffff;
+ --surface-2:    #f5f5f7;
+ --surface-3:    #e8e8ed;
+ --text:         #1d1d1f;
+ --text-2:       #434345;
+ --text-mute:    #86868b;
+ --text-faint:   #aeaeb2;
+ --rule:         #d2d2d7;
+ --accent:       #0071e3;
+ --accent-soft:  rgba(0, 113, 227, 0.10);
+ --accent-glow:  rgba(0, 113, 227, 0.45);
+
+ /* ─── fonts (SF Pro / Inter pairing) ─── */
+ --font-display-cn: "Noto Sans SC", "Source Han Sans SC", -apple-system, sans-serif;
+ --font-display-en: "SF Pro Display", "Inter", -apple-system, sans-serif;
+ --font-body:       "SF Pro Text", "Inter", "Noto Sans SC", -apple-system, sans-serif;
+ --font-mono:       "SF Mono", "JetBrains Mono", ui-monospace, monospace;
+ --font-features:   "cv11", "ss01", "tnum";
+
+ /* ─── motion: fluid keynote ─── */
+ --dur-base:       500ms;
+ --dur-slow:       800ms;
+ --dur-cinematic:  1200ms;
+
+ /* ─── design identity: clean minimal ─── */
+ --r-card:        var(--r-lg);      /* 16px — Apple's signature radius */
+ --r-stage:       0;
+ --rule-w:        1px;
+ --rule-style:    solid;
+ --hero-num-font:    var(--font-display-en);
+ --hero-num-style:   normal;
+ --hero-num-weight:  600;
+ --hero-num-track:   -0.04em;
+ --stage-pad-x:   120px;
+ --stage-pad-y:   96px;
+ --card-shadow:
+   0 1px 2px rgba(0, 0, 0, 0.03),
+   0 8px 24px rgba(0, 0, 0, 0.06);
+ --card-glass-bg:     rgba(255, 255, 255, 0.92);
+ --card-glass-border: rgba(255, 255, 255, 0.96);
+ --shadow-stage:
+   0 40px 120px rgba(0, 0, 0, 0.06),
+   0 0 0 1px rgba(0, 0, 0, 0.02);
+
+ /* ─── decoration: none — clean white surface ─── */
+ --surface-pattern:       none;
+ --surface-pattern-size:  0;
+}
